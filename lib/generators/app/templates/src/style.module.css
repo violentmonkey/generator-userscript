@@ -1,0 +1,11 @@
+.panel {
+  position: fixed;
+  top: 80px;
+  right: 80px;
+  padding: 8px;
+  border: 1px solid #ddf;
+  border-radius: 4px;
+  background: white;
+  color: #333;
+  z-index: 1000;
+}
