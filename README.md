@@ -17,10 +17,12 @@ Node.js v10.0+ is required.
 
 ## Usage
 
+Run one of the following command in an empty directory:
+
 ```sh
-# Use the latest version from git
+# Option 1: Use the latest version from git
 $ npx -p https://github.com/violentmonkey/generator-userscript.git -p yo yo @violentmonkey/userscript
 
-# Use the lastest released version from NPM
+# Option 2: Use the lastest released version from NPM
 $ npx -p @violentmonkey/generator-userscript -p yo yo @violentmonkey/userscript
 ```
