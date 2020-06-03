@@ -15,11 +15,14 @@ Node.js v10.0+ is required.
   - CSSNext powered by [PreCSS](https://github.com/jonathantneal/precss)
   - CSS modules (only applied for `.module.css` files)
 
+Read [this](https://violentmonkey.github.io/guide/using-modern-syntax/) for more details.
+
 ## Usage
 
-Run one of the following command in an empty directory:
-
 ```sh
+$ mkdir my-script
+$ cd my-script
+
 # Use the latest version from git
 $ npx -p https://github.com/violentmonkey/generator-userscript.git -p yo yo @violentmonkey/userscript
 ```

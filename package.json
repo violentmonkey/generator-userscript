@@ -27,6 +27,9 @@
   "devDependencies": {
     "ejs-lint": "^1.0.1"
   },
+  "engines": {
+    "node": ">=10"
+  },
   "publishConfig": {
     "access": "public"
   }
