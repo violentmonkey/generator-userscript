@@ -7,7 +7,14 @@
     "emitDeclarationOnly": true,
     "outDir": "types",
     "allowSyntheticDefaultImports": true,
-    "jsx": "react"
+    "jsx": "react",
+    "lib": [
+      "DOM",
+      "ES6",
+      "DOM.Iterable",
+      "ScriptHost",
+      "ESNext"
+    ]
   },
   "files": [
     "src/index.ts",
