@@ -8,6 +8,8 @@
     "outDir": "types",
     "allowSyntheticDefaultImports": true,
     "jsx": "react",
+    "jsxFactory": "VM.createElement",
+    "jsxFragmentFactory": "VM.Fragment",
     "lib": [
       "DOM",
       "ES6",
