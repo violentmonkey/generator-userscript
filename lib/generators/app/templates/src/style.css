@@ -1,1 +1,4 @@
 /* global css */
+body {
+  @apply bg-gray-200;
+}

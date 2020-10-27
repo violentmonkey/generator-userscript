@@ -14,6 +14,7 @@ Node.js v10.0+ is required.
 - CSS
   - CSSNext powered by [PreCSS](https://github.com/jonathantneal/precss)
   - CSS modules (only applied for `.module.css` files)
+  - [tailwindcss](https://tailwindcss.com/) is enabled by default, but **only for CSS, don't use it in JavaScript or templates**
 
 Read [this](https://violentmonkey.github.io/guide/using-modern-syntax/) for more details.
 
