@@ -4,7 +4,9 @@
 
 Yeoman generator to create a workspace for userscript easily.
 
-Node.js v10.0+ is required.
+## Prerequisites
+
+- Node.js >= 12
 
 ## Features
 

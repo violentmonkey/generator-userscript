@@ -4,5 +4,8 @@
   "description": "",
   "author": "",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "engines": {
+    "node": ">=12"
+  }
 }
