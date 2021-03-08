@@ -1,6 +1,6 @@
 # <%= name %>
 
-This is a userscript.
+This is a userscript initiated from [@violentmonkey/generator-userscript](https://github.com/violentmonkey/generator-userscript).
 
 ## Development
 
