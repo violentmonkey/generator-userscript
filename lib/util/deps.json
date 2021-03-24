@@ -8,6 +8,7 @@
     "@violentmonkey/dom": "^1.0.9",
     "@violentmonkey/ui": "^0.5.2",
     "del-cli": "^3.0.1",
-    "husky": "^5.1.3"
+    "husky": "^5.2.0",
+    "rollup-plugin-userscript": "^0.1.0"
   }
 }
