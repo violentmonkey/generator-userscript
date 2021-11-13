@@ -14,7 +14,6 @@ Yeoman generator to create a workspace for userscript easily.
   - JavaScript ESNext or TypeScript
   - JSX for DOM powered by [@violentmonkey/dom](https://github.com/violentmonkey/vm-dom)
 - CSS
-  - CSSNext powered by [PreCSS](https://github.com/jonathantneal/precss)
   - CSS modules (only applied for `.module.css` files)
   - [tailwindcss](https://tailwindcss.com/) is enabled by default, but **only for CSS, don't use it in JavaScript or templates**
 
