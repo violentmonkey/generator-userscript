@@ -1,5 +1,6 @@
-import * as _VM from './vm';
+import * as dom from '@violentmonkey/dom';
+import * as ui from '@violentmonkey/ui';
 
 declare global {
-  const VM: typeof _VM;
+  const VM: typeof dom & typeof ui;
 }
