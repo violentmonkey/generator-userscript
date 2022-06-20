@@ -1,11 +1,15 @@
 import * as dom from '@violentmonkey/dom';
 import * as ui from '@violentmonkey/ui';
-import { VChildren, DomNode } from '@gera2ld/jsx-dom';
 
 declare global {
   const VM: typeof dom & typeof ui;
 
   namespace JSX {
-    type Element = VChildren; // Change to DomNode if jsxFactory is set to VM.hm
+    /**
+     * JSX.Element can be different based on pragma in babel config:
+     * - VChildren - when jsxFactory is VM.h
+     * - DomNode   - when jsxFactory is VM.hm
+     */
+    type Element = import('@gera2ld/jsx-dom').VChildren;
   }
 }
