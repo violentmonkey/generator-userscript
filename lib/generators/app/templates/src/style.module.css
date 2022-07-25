@@ -1,5 +1,7 @@
-.panel {
-  @apply fixed bg-white text-gray-800 z-10 rounded border border-gray-400 p-4;
-  top: 80px;
-  right: 80px;
+.title {
+  @apply font-bold;
+}
+
+.desc {
+  @apply text-green-600;
 }

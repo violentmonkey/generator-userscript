@@ -7,9 +7,9 @@ declare global {
   namespace JSX {
     /**
      * JSX.Element can be different based on pragma in babel config:
-     * - VChildren - when jsxFactory is VM.h
-     * - DomNode   - when jsxFactory is VM.hm
+     * - VChild  - when jsxFactory is VM.h
+     * - DomNode - when jsxFactory is VM.hm
      */
-    type Element = import('@gera2ld/jsx-dom').VChildren;
+    type Element = import('@gera2ld/jsx-dom').VChild;
   }
 }
