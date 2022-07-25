@@ -25,6 +25,10 @@ Read [this](https://violentmonkey.github.io/guide/using-modern-syntax/) for more
 $ mkdir my-script
 $ cd my-script
 
+# Remove npx cache if needed
+$ NPM_CACHE=`npm config get cache` # -> `~/.npm`
+$ rm -rf $NPM_CACHE/_npx
+
 # Use the latest version from git
 $ npx -p https://github.com/violentmonkey/generator-userscript.git -p yo yo @violentmonkey/userscript
 ```
