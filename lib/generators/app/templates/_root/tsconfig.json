@@ -3,7 +3,7 @@
     "target": "es6",
     "module": "es6",
     "moduleResolution": "node",
-    "declaration": true,
+    "declaration": false,
     "allowSyntheticDefaultImports": true,
     "jsx": "preserve",
     "lib": [
