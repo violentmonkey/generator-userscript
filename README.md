@@ -19,7 +19,7 @@ Yeoman generator to create a workspace for userscript easily.
 
 Read [this](https://violentmonkey.github.io/guide/using-modern-syntax/) for more details.
 
-## Usage
+## Get Started
 
 First of all, make a new directory for your userscript.
 
@@ -38,11 +38,11 @@ Please make sure your `npm` is up to date because in earlier versions (e.g. 8.12
 $ npm i npm -g
 
 # Use the latest version from git
-$ npx -p https://github.com/violentmonkey/generator-userscript.git -p yo yo @violentmonkey/userscript
+$ npx -p github:violentmonkey/generator-userscript -p yo yo @violentmonkey/userscript
 ```
 
 ### Option 2: pnpm
 
 ```bash
-$ pnpm --package https://github.com/violentmonkey/generator-userscript.git --package yo dlx yo @violentmonkey/userscript
+$ pnpm --package github:violentmonkey/generator-userscript --package yo dlx yo @violentmonkey/userscript
 ```
