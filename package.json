@@ -10,11 +10,11 @@
     "rollup",
     "userscript"
   ],
-  "author": "Gerald <i@gerald.top>",
+  "author": "Gerald <gera2ld@live.com>",
   "license": "ISC",
   "dependencies": {
     "globby": "^11.0.0",
-    "yeoman-generator": "^4.6.0"
+    "yeoman-generator": "^5.7.0"
   },
   "repository": {
     "type": "git",
@@ -25,8 +25,7 @@
   },
   "homepage": "https://github.com/gera2ld/generator-userscript#readme",
   "devDependencies": {
-    "ejs-lint": "^1.0.1",
-    "npm-check-updates": "^11.1.9"
+    "npm-check-updates": "^16.0.5"
   },
   "engines": {
     "node": ">=12"

@@ -21,14 +21,28 @@ Read [this](https://violentmonkey.github.io/guide/using-modern-syntax/) for more
 
 ## Usage
 
+First of all, make a new directory for your userscript.
+
 ```sh
 $ mkdir my-script
 $ cd my-script
+```
 
-# Remove npx cache if needed
-$ NPM_CACHE=`npm config get cache` # -> `~/.npm`
-$ rm -rf $NPM_CACHE/_npx
+Then follow one of the options below to create the files.
+
+### Option 1: npm
+
+Please make sure your `npm` is up to date because in earlier versions (e.g. 8.12.x) there was a bug that prevented `npx` from installing the correct dependencies.
+
+```bash
+$ npm i npm -g
 
 # Use the latest version from git
 $ npx -p https://github.com/violentmonkey/generator-userscript.git -p yo yo @violentmonkey/userscript
+```
+
+### Option 2: pnpm
+
+```bash
+$ pnpm --package https://github.com/violentmonkey/generator-userscript.git --package yo dlx yo @violentmonkey/userscript
 ```
