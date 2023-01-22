@@ -5,17 +5,12 @@ This is a userscript initiated from [@violentmonkey/generator-userscript](https:
 ## Development
 
 ``` sh
-$ yarn dev
-```
+# Compile and watch
+$ npm run dev
 
-## Building
+# Build script
+$ npm run build
 
-```sh
-$ yarn build
-```
-
-## Lint
-
-``` sh
-$ yarn lint
+# Lint
+$ npm run lint
 ```
