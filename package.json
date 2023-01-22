@@ -28,7 +28,7 @@
     "npm-check-updates": "^16.0.5"
   },
   "engines": {
-    "node": ">=12"
+    "node": ">=16"
   },
   "publishConfig": {
     "access": "public"
