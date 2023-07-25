@@ -6,6 +6,7 @@
     "declaration": false,
     "allowSyntheticDefaultImports": true,
     "jsx": "preserve",
+    "skipLibCheck": true,
     "lib": [
       "DOM",
       "ES6",

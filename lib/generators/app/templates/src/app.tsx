@@ -1,7 +1,8 @@
+import { getPanel } from "@violentmonkey/ui";
 // global CSS
-import globalCss from './style.css';
+import globalCss from "./style.css";
 // CSS modules
-import styles, { stylesheet } from './style.module.css';
+import styles, { stylesheet } from "./style.module.css";
 
 function Greetings() {
   return (
@@ -13,12 +14,11 @@ function Greetings() {
 }
 
 // Let's create a movable panel using @violentmonkey/ui
-const panel = VM.getPanel({
+const panel = getPanel({
   content: <Greetings />,
-  theme: 'dark',
-  style: [globalCss, stylesheet].join('\n'),
+  theme: "dark",
+  style: [globalCss, stylesheet].join("\n"),
 });
-panel.wrapper.style.top = '100px';
+panel.wrapper.style.top = "100px";
 panel.setMovable(true);
 panel.show();
-
