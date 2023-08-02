@@ -5,14 +5,16 @@
     "@gera2ld/plaid": "~2.5.9",
     "@gera2ld/plaid-common-ts": "~2.5.9",
     "@gera2ld/plaid-rollup": "~2.5.9",
+    "@unocss/postcss": "^0.54.1",
     "@violentmonkey/dom": "^2.1.4",
     "@violentmonkey/ui": "^0.7.8",
     "@violentmonkey/types": "^0.1.5",
     "del-cli": "^5.0.0",
-    "eslint-config-prettier": "^8.8.0",
+    "eslint-config-prettier": "^8.9.0",
     "eslint-plugin-prettier": "^5.0.0",
     "husky": "^8.0.3",
     "prettier": "^3.0.0",
-    "rollup-plugin-userscript": "^0.1.1"
+    "rollup-plugin-userscript": "^0.1.1",
+    "unocss": "^0.54.1"
   }
 }

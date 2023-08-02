@@ -1,8 +1,2 @@
 /* global css */
-
-
-
-/* Put tailwind utility classes in the end */
-/* only uncomment it if you are using CSS in shadow DOM, otherwise the page styles may be affected.
-@tailwind utilities;
-*/
+/* Note: might conflict with existing styles if not in shadow DOM */

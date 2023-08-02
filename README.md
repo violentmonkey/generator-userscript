@@ -11,11 +11,11 @@ Yeoman generator to create a workspace for userscript easily.
 ## Features
 
 - Modern syntax
-  - JavaScript ESNext or TypeScript
+  - TypeScript
   - JSX for DOM powered by [@violentmonkey/dom](https://github.com/violentmonkey/vm-dom)
 - CSS
   - CSS modules (only applied for `.module.css` files)
-  - [tailwindcss](https://tailwindcss.com/) is enabled by default, but **only for CSS**. If you want to use it in shadowDOM, uncomment `@tailwind utilities` in global `style.css`.
+  - [UnoCSS](https://unocss.dev/) is enabled by default
 
 Read [this](https://violentmonkey.github.io/guide/using-modern-syntax/) for more details.
 
