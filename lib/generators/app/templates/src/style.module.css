@@ -1,4 +1,4 @@
-// Preflights are needed for default values of variables
+/* Preflights are needed for default values of variables */
 @unocss preflights;
 
 .title {
