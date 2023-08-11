@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "violentmonkey-script",
   "version": "0.0.0",
   "description": "",
   "author": "",
@@ -7,5 +7,34 @@
   "private": true,
   "engines": {
     "node": ">=16"
+  },
+  "scripts": {
+    "prepare": "husky install",
+    "dev": "rollup -wc",
+    "clean": "del-cli dist",
+    "build:js": "rollup -c",
+    "build": "cross-env NODE_ENV=production run-s ci clean build:js",
+    "lint": "eslint --ext .ts,.tsx .",
+    "ci": "run-s lint"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.22.10",
+    "@violentmonkey/dom": "^2.1.4",
+    "@violentmonkey/ui": "^0.7.8"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-react-jsx": "^7.22.5",
+    "@gera2ld/plaid": "~2.5.9",
+    "@gera2ld/plaid-common-ts": "~2.5.9",
+    "@gera2ld/plaid-rollup": "~2.5.9",
+    "@unocss/postcss": "^0.55.0",
+    "@violentmonkey/types": "^0.1.5",
+    "del-cli": "^5.0.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "husky": "^8.0.3",
+    "prettier": "^3.0.1",
+    "rollup-plugin-userscript": "^0.1.1",
+    "unocss": "^0.55.0"
   }
 }

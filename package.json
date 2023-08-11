@@ -34,6 +34,6 @@
     "access": "public"
   },
   "scripts": {
-    "update:deps": "ncu --packageFile lib/util/deps.json"
+    "update:deps": "ncu --packageFile lib/generators/app/templates/_root/package.json"
   }
 }
