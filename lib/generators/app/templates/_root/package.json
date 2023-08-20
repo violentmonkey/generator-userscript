@@ -27,16 +27,16 @@
     "@gera2ld/plaid": "~2.5.9",
     "@gera2ld/plaid-common-ts": "~2.5.9",
     "@gera2ld/plaid-rollup": "~2.5.9",
-    "@unocss/postcss": "^0.55.0",
+    "@unocss/postcss": "^0.55.2",
     "@violentmonkey/types": "^0.1.5",
     "del-cli": "^5.0.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-prettier": "^5.0.0",
     "husky": "^8.0.3",
-    "lint-staged": "^13.2.3",
-    "prettier": "^3.0.1",
-    "rollup-plugin-userscript": "^0.1.1",
-    "unocss": "^0.55.0"
+    "lint-staged": "^14.0.0",
+    "prettier": "^3.0.2",
+    "rollup-plugin-userscript": "^0.2.0",
+    "unocss": "^0.55.2"
   },
   "lint-staged": {
     "*.{ts,tsx}": "eslint --fix"
