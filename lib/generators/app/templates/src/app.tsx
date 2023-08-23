@@ -1,24 +1,40 @@
-import { getPanel } from "@violentmonkey/ui";
+import { createSignal } from 'solid-js';
+import { render } from 'solid-js/web';
+import { getPanel, showToast } from '@violentmonkey/ui';
 // global CSS
-import globalCss from "./style.css";
+import globalCss from './style.css';
 // CSS modules
-import styles, { stylesheet } from "./style.module.css";
+import styles, { stylesheet } from './style.module.css';
 
-function Greetings() {
+function Counter() {
+  const [getCount, setCount] = createSignal(0);
+  const handleAmazing = () => {
+    setCount((count) => count + 1);
+    showToast('Amazing + 1', { theme: 'dark' });
+  };
   return (
-    <>
-      <div className={styles.title}>hello</div>
-      <p className={styles.desc}>This is a panel. You can drag to move it.</p>
-    </>
+    <div>
+      <button class={styles.plus1} onClick={handleAmazing}>
+        Amazing+1
+      </button>
+      <p>Drag me</p>
+      <p>
+        <span class={styles.count}>{getCount()}</span> people think this is
+        amazing.
+      </p>
+    </div>
   );
 }
 
 // Let's create a movable panel using @violentmonkey/ui
 const panel = getPanel({
-  content: <Greetings />,
-  theme: "dark",
-  style: [globalCss, stylesheet].join("\n"),
+  theme: 'dark',
+  style: [globalCss, stylesheet].join('\n'),
 });
-panel.wrapper.style.top = "100px";
+Object.assign(panel.wrapper.style, {
+  top: '10vh',
+  left: '10vw',
+});
 panel.setMovable(true);
 panel.show();
+render(Counter, panel.body);

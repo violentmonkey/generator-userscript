@@ -19,21 +19,22 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.22.10",
-    "@violentmonkey/dom": "^2.1.4",
-    "@violentmonkey/ui": "^0.7.8"
+    "@violentmonkey/dom": "^2.1.5",
+    "@violentmonkey/ui": "^0.7.8",
+    "solid-js": "^1.7.11"
   },
   "devDependencies": {
     "@babel/plugin-transform-react-jsx": "^7.22.5",
-    "@gera2ld/plaid": "~2.5.9",
-    "@gera2ld/plaid-common-ts": "~2.5.9",
-    "@gera2ld/plaid-rollup": "~2.5.9",
+    "@gera2ld/plaid": "~2.6.0",
+    "@gera2ld/plaid-rollup": "~2.6.0",
     "@unocss/postcss": "^0.55.2",
     "@violentmonkey/types": "^0.1.5",
+    "babel-preset-solid": "^1.7.7",
     "del-cli": "^5.0.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-prettier": "^5.0.0",
     "husky": "^8.0.3",
-    "lint-staged": "^14.0.0",
+    "lint-staged": "^14.0.1",
     "prettier": "^3.0.2",
     "rollup-plugin-userscript": "^0.2.0",
     "unocss": "^0.55.2"

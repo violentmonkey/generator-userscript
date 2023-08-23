@@ -10,12 +10,10 @@ Yeoman generator to create a workspace for userscript easily.
 
 ## Features
 
-- Modern syntax
-  - TypeScript
-  - JSX for DOM powered by [@violentmonkey/dom](https://github.com/violentmonkey/vm-dom)
-- CSS
-  - CSS modules (only applied for `.module.css` files)
-  - [UnoCSS](https://unocss.dev/) is enabled by default
+- TypeScript
+- [SolidJS](https://www.solidjs.com/)
+- CSS modules (applied for `.module.css` files)
+- [UnoCSS](https://unocss.dev/)
 
 Read [this](https://violentmonkey.github.io/guide/using-modern-syntax/) for more details.
 

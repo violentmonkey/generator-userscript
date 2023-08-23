@@ -1,10 +1,10 @@
 /* Preflights are needed for default values of variables */
 @unocss preflights;
 
-.title {
-  @apply font-bold;
+.count {
+  @apply text-orange-500;
 }
 
-.desc {
-  @apply text-green-600;
+.plus1 {
+  @apply float-right;
 }

@@ -6,6 +6,7 @@
     "declaration": false,
     "allowSyntheticDefaultImports": true,
     "jsx": "preserve",
+    "jsxImportSource": "solid-js",
     "skipLibCheck": true,
     "lib": [
       "DOM",
