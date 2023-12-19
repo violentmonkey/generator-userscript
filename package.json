@@ -2,6 +2,7 @@
   "name": "@violentmonkey/generator-userscript",
   "version": "0.1.0",
   "description": "Build a userscript with rollup",
+  "type": "module",
   "files": [
     "lib"
   ],
@@ -13,8 +14,8 @@
   "author": "Gerald <gera2ld@live.com>",
   "license": "ISC",
   "dependencies": {
-    "globby": "^11.0.0",
-    "yeoman-generator": "^5.7.0"
+    "globby": "^14.0.0",
+    "yeoman-generator": "^7.1.1"
   },
   "repository": {
     "type": "git",
@@ -25,10 +26,11 @@
   },
   "homepage": "https://github.com/gera2ld/generator-userscript#readme",
   "devDependencies": {
-    "npm-check-updates": "^16.0.5"
+    "npm-check-updates": "^16.14.12",
+    "prettier": "^3.1.1"
   },
   "engines": {
-    "node": ">=16"
+    "node": ">=18"
   },
   "publishConfig": {
     "access": "public"
