@@ -42,8 +42,11 @@
     "unocss": "^0.58.6"
   },
   "lint-staged": {
-    "src/**": [
+    "*.ts": [
       "eslint --fix",
+      "prettier --write"
+    ],
+    "*.css": [
       "prettier --write"
     ]
   }
