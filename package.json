@@ -19,12 +19,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gera2ld/generator-userscript.git"
+    "url": "git+https://github.com/violentmonkey/generator-userscript.git"
   },
   "bugs": {
-    "url": "https://github.com/gera2ld/generator-userscript/issues"
+    "url": "https://github.com/violentmonkey/generator-userscript/issues"
   },
-  "homepage": "https://github.com/gera2ld/generator-userscript#readme",
+  "homepage": "https://github.com/violentmonkey/generator-userscript#readme",
   "devDependencies": {
     "npm-check-updates": "^16.14.12",
     "prettier": "^3.1.1"
