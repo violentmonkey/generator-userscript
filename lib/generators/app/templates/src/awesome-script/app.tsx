@@ -26,10 +26,15 @@ function Counter() {
   );
 }
 
+// Inject CSS
+GM_addStyle(globalCss);
+
 // Let's create a movable panel using @violentmonkey/ui
 const panel = getPanel({
   theme: 'dark',
-  style: [globalCss, stylesheet].join('\n'),
+  // If shadowDOM is enabled for `getPanel` (by default), `style` will be injected to the shadow root.
+  // Otherwise, it is roughly the same as `GM_addStyle(stylesheet)`.
+  style: stylesheet,
 });
 Object.assign(panel.wrapper.style, {
   top: '10vh',
